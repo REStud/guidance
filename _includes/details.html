@@ -1,4 +1,23 @@
-<details>
-    <summary>{{ summary | markdownify | remove: '<p>' | remove: '</p>' }}</summary>
-    {{ details | markdownify }}
-</details>
+<div>
+	<ul class="nav nav-tabs nav-justified" role="tablist">
+	  <li role="presentation" class="active"><a data-os="example1" href="" aria-controls="Windows" role="tab" data-toggle="tab">Example 1</a></li>
+	  <li role="presentation"><a data-os="example2" href="" aria-controls="MacOS" role="tab" data-toggle="tab">Example 2</a></li>
+	  <li role="presentation"><a data-os="example3" href="" aria-controls="Linux" role="tab" data-toggle="tab">Example 3</a></li>
+	  <li role="presentation"><a data-os="rules" href="" aria-controls="Linux" role="tab" data-toggle="tab">Rules</a></li>
+	</ul>
+
+	<div class="tab-content">
+	  <article role="tabpanel" class="tab-pane active" id="stata-example1">
+	    {{ example1 | markdownify }}
+	  </article>
+	  <article role="tabpanel" class="tab-pane active" id="stata-example2">
+	    {{ example2 | markdownify }}
+	  </article>
+	  <article role="tabpanel" class="tab-pane active" id="stata-example3">
+	    {{ example3 | markdownify }}
+	  </article>
+	  <article role="tabpanel" class="tab-pane active" id="stata-rules">
+	    {{ rules | markdownify }}
+	  </article>
+	</div>
+</div>
