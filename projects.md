@@ -1,3 +1,7 @@
+# Clean up many repos
+- delete unused repos
+- move and consolidate issues
+
 # Annotated READMEs
 ## Resources
 Repo: https://github.com/REStud/data-editor-svelte
@@ -21,3 +25,6 @@ Repo: https://github.com/REStud/data-editor-svelte
 # Create Docker images for replications
 ## Resources
 - hub.docker.com/restud
+
+# Dedicated RESTUD email
+- Easier to parse, not lost.
