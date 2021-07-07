@@ -1,8 +1,9 @@
 # Data Availability Policies of SJR "Economics, Econometrics and Finance" top6 journals
 
+-------------
 ## Quarterly Journal of Economics
 homepage: https://academic.oup.com/qje<br/>
-**Data Policy**: https://academic.oup.com/qje/pages/Data_Policy
+[Data Policy](https://academic.oup.com/qje/pages/Data_Policy)
 -------------
 
 ### Data Policy
@@ -33,7 +34,7 @@ If the paper is accepted by the QJE , the appendices containing instructions, th
 -------------
 ## Journal of Political Economy
 homepage: https://www.journals.uchicago.edu/toc/jpe/current<br/>
-**Data Policy**: https://www.journals.uchicago.edu/journals/jpe/datapolicy
+[Data Policy](https://www.journals.uchicago.edu/journals/jpe/datapolicy)
 -------------
 ### Data Policy
 
@@ -66,8 +67,8 @@ If the paper is accepted by the JPE, the appendices containing instructions, the
 -------------
 ## Journal of Finance
 homepage: https://onlinelibrary.wiley.com/journal/15406261<br/>
-**Code Sharing Policy**: https://afajof.org/wp-content/uploads/files/policies-and-guidelines/CodePolicy.pdf
-**Submission Guidelines and Policies**: https://afajof.org/wp-content/uploads/files/policies-and-guidelines/JF_Submission_Guidelines-Feb.pdf
+[Code Sharing Policy](https://afajof.org/wp-content/uploads/files/policies-and-guidelines/CodePolicy.pdf)
+[Submission Guidelines and Policies](https://afajof.org/wp-content/uploads/files/policies-and-guidelines/JF_Submission_Guidelines-Feb.pdf)
 -------------
 ### Code Sharing Policy
 Authors of accepted papersthat contain empirical analysis, simulations, numerical computations, or experimental work must provide the programs needed for replication to the Journal of Finance. Authors are also encouraged to include the data along with the source codeif public posting of the data does not violate copyright or confidentiality agreements. If the authors choose not to provide the data, they must include a pseudo-data set thatillustrates the format of the files read by the code so that users can understand and check the functionalityof the code. Authors must notify the JournalEditor at the time of initial submissionifthey are asking for an exception to this policy. Absent an exception granted by the Editor, accepted papers will be published only after the programs are received by the Journal, and code will be made available on the Journal website. Authors are not required to provide assistance and further support to eventual users of the code. More details of the requirements are described below.
@@ -76,13 +77,14 @@ Authors of accepted papersthat contain empirical analysis, simulations, numerica
 3. In exceptional cases, the authors can request, at the time of the initial submission,an exemption from this sharing policy. Examples of exceptions are the use of proprietary, licensed algorithms,or when an authordevelops a novel computational algorithm and he/she wishes delay sharing for some fixed period of time. Whether such an exemption is granted remains at the discretion of the Editor. Moreover, even if an exception is granted, Editors will normally require that non-proprietary routines used for data transformation and auxiliary statistical analysis be posted at the time of publication. Ifan exemption is granted, it will be noted on the published paper that the authors have been granted an exemption fromthe code sharing policy.  
 ### Submission Rules
 ...<br/>
+k)Submissions can include a supplementary appendix that might include extra tables, extra figures, data description, and proofs. If the manuscript is accepted, the supplementary appendix will appear as an Internet Appendix with the online version of the article at the publisher’s website.<br/>
 l)If  your  paper  uses  proprietary  data  (that  is  not  available  for  purchase  by  the academic  community)  and  is  accepted  for  publication,  your  final  submission must be accompanied by an authorization letter showing that the source of the data approves its use in the Journal of Finance.<br/>
 ...
 
 -------------
 ## American Economic Review
 homepage: https://www.aeaweb.org/journals/aer<br/>
-**Data and Codae Availability Policy**: https://www.aeaweb.org/journals/data/data-code-policy
+[Data and Code Availability Policy](https://www.aeaweb.org/journals/data/data-code-policy)
 -------------
 ###Data and Code Availability Policy
 
@@ -161,7 +163,8 @@ This version (September 2020) supplants all prior data policies.
 -------------
 ## Econometrica
 homepage: https://onlinelibrary.wiley.com/journal/14680262<br/>
-**Replication policy**:https://www.econometricsociety.org/publications/econometrica/information-authors/editorial-procedures-and-policies
+[Replication policy](https://www.econometricsociety.org/publications/econometrica/information-authors/editorial-procedures-and-policies)
+-------------
 ### Replication Policy
 Econometrica has the policy that all empirical, experimental and simulation results must be replicable. Therefore, authors of accepted papers must submit data sets, programs, and information on empirical analysis, experiments and simulations that are needed for replication and some limited sensitivity analysis. Published papers should supply a clear description of the procedures needed to replicate results. When there exist significant hurdles to replication, such as the need to use proprietary software, authors must provide sufficient details for readers to assess the accuracy of the paper's results. (Authors of experimental papers can consult the more detailed posted information regarding submission of experimental papers.)
 
@@ -174,7 +177,8 @@ Requests for an exemption from providing the materials described here, or for re
 -------------
 ## Review of Economic Studies
 homepage: https://academic.oup.com/restud<br/>
-**Data Availability Policy**: https://restud.github.io/data-editor/before/#data-availability-policy
+[Data Availability Policy](https://restud.github.io/data-editor/before/#data-availability-policy)
+-------------
 By submitting to the journal, you indicate that you accept the Data Availability Policy. In short, the default rule is that you are required to submit all code and data necessary to reproduce your work, and permit any reader of the journal to use them.
 ### Data Availability Policy
 
@@ -212,3 +216,60 @@ As with Econometric and Simulation papers, we understand that there may be a nee
 
 Requests for exemptions should be clearly stated when the article is first submitted.
 The article will then be reviewed at the discretion of the Managing Editors and the Data Editor. Exceptions will not be considered later in the review and publication process.
+
+-------------
+## Journal of the European Economic Association
+homepage: https://academic.oup.com/jeea<br/>
+[Supplementary Material & Data Policy](https://academic.oup.com/jeea/pages/Author_Guidelines)
+-------------
+## Supplementary Material & Data Policy
+1. Supplementary Material
+
+Supplementary material that is not essential for inclusion in the main text of the manuscript, but would nevertheless benefit the reader, can be placed in Online Appendices, and linked from the manuscript. The material should not be essential to comprehension of the article, but should be relevant to the article content. This includes all replication materials.
+
+Data files that are less than 100 MB can be supplied as a zip disc. If your data are 100MB or larger, please deposit them in a public repository that assigns a permanent URL(DOI) or accession number and send JEEA the details. Make sure that the URL name contains information that clearly identifies the authors and manuscript name.
+
+Further information on depositories that authors might consider are here:
+
+[Suggested Information for Data and Code Hosting](https://social-science-data-editors.github.io/guidance/Requested_information_hosting.html)
+[Useful Tools List](http://replication.uni-goettingen.de/wiki/index.php/Useful_tools)
+
+Supplementary material cannot be altered or replaced after the paper has been accepted, and will not be edited. Please ensure that supplementary material is referred to in the main manuscript where necessary, for example as, “Supplementary material” or, “see Online Appendix Figure 1”. All elements in the Appendix or online appendix should be labeled with A, B, etc.
+2. Data Availability Policy
+
+Please read this section carefully as we are unable to enter submissions which do not comply with our policy on data into the editorial process.
+
+JEEA will publish papers only if any data used in the analysis are clearly and precisely documented and are readily available to any researcher for purposes of replication. Authors of accepted papers which contain empirical work, simulations, or experimental work, must provide to JEEA, prior to publication, the data, programs, and other details of the computations sufficient to permit replication. These will be posted on the JEEA web site.
+
+Below, we provide more details on what should be submitted as part of replication materials for empirical and experimental papers. In general, however, all code necessary to re-produce the tables and figures in papers as well as in the supplementary materials should be provided. This includes code used to run simulations or Monte Carlo studies. We encourage authors to set a seed so the exact numbers that are reported can be obtained).
+
+Authors are expected to cooperate with investigators seeking to conduct a replication, although replicators are also expected to be able to use all materials provided independently.
+3. Empirical Papers
+
+For empirical, econometric and simulation papers, authors should provide at least:
+
+* A description of the purpose of each data set and program.
+* The data set(s) and programs used to run the final estimation. The data files can be provided in any standard format. Programs can be written in any standard programming language (including higher-level languages).
+* A description of how previous intermediate data sets and programs were employed to create the final data set(s).
+* All description files should be provided in PDF format. Include a ReadMe file specifying the manuscript name, authors, folders, filenames and their purpose (e.g., in order to produce Table 4 in the main text).
+
+4. Experimental Papers:
+
+We expect authors of experimental articles to supply the following materials:
+
+* The design of the experiment. Suggested information to provide in a design summary includes: (i) The subject pool and recruiting procedures; (ii) when and where experiments were conducted (manually, online etc.); (iii) procedures to test for comprehension before the experiment (e.g. practice trials, quizzes etc.); (iv) matching procedures, especially for game theory experiments; (v) subject payments, including whether artificial currency was used, the exchange rate, show-up fees, average earnings, lotteries; (vi) the number of subjects in each session; (vii) how long a typical session lasted, and how much of that time was instructional; (viii) any use of deception and/or any instructional inaccuracies.
+* The instructions given to the subjects should be summarized as part of the discussion on design, and also provided in full as part of the Supplementary Material at the time of submission. The instructions and design summary should enable another researcher to be able to replicate the experiment protocols.
+* If any accompanying materials, such as experimental instructions, are not written in English, then a translation should be provided, together with the experimental instructions in the original language.
+* A description of the purpose of each data set and program.
+* Any computer programs or scripts used to run the experiment and/or to analyse the data.
+* The raw data from the experiment, with sufficient explanation to make it possible to use the submitted computer programs to replicate the data analysis.
+* All description files should be provided in PDF format. Include a ReadMe file specifying the manuscript name, authors, folders, filenames and their purpose (e.g., in order to produce Table 4 in the main text).
+
+5. Exemptions
+
+Requests for an exemption from providing the Supplementary Materials described, or for restricting their usage, should be stated clearly when the paper is first submitted for review. The cover letter should notify the Co-editors if the requirements above cannot be met. It will be at the editors’ discretion whether the paper can then be reviewed. Exceptions will not be considered later in the review and publication process.
+6. Proprietary Data
+
+We will consider papers based on proprietary data. If a request for an exemption to the above policy is made based on data being proprietary, authors should inform the co-editors if the data can be accessed or obtained in some other way by independent researchers for purposes of replication. Authors are also asked to provide information on how the proprietary data can be obtained by others in their Readme PDF file. A copy of all other Supplementary Materials (code etc. used produce the final results) is still required, as described above.
+
+
