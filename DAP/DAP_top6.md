@@ -1,4 +1,4 @@
-#Data Availability Policies of SJR "Journal of Finance" top6 journals
+# Data Availability Policies of SJR "Economics, Econometrics and Finance" top6 journals
 
 ## Quarterly Journal of Economics
 homepage: https://academic.oup.com/qje<br/>
