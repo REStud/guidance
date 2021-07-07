@@ -2,7 +2,8 @@
 
 -------------
 ## Quarterly Journal of Economics
-homepage: https://academic.oup.com/qje<br/>
+
+[homepage](https://academic.oup.com/qje)<br/>
 [Data Policy](https://academic.oup.com/qje/pages/Data_Policy)
 -------------
 
@@ -33,15 +34,13 @@ If the paper is accepted by the QJE , the appendices containing instructions, th
 
 -------------
 ## Journal of Political Economy
-homepage: https://www.journals.uchicago.edu/toc/jpe/current<br/>
+
+[homepage](https://www.journals.uchicago.edu/toc/jpe/current)<br/>
 [Data Policy](https://www.journals.uchicago.edu/journals/jpe/datapolicy)
 -------------
 ### Data Policy
 
-
 In an effort to promote consistent standards and requirements among general-interest journals in the field of economics, the Journal of Political Economy has adopted the AER data availability policy. We are grateful to the editors of the American Economic Review for their leadership in constructing this policy.
-
-*****************
 
 It is the policy of the Journal of Political Economy to publish papers only if the data used in the analysis are clearly and precisely documented and are readily available to any researcher for purposes of replication. Authors of accepted papers, in particular those that contain empirical work, simulations, experimental work, or numerical computations, must provide to the Journal, prior to publication, the data, programs, and other details of the computations sufficient to permit replication. These will be posted on the JPE Web site. The Editor should be notified at the time of submission if the data used in a paper are proprietary or if, for some other reason, the requirements above cannot be met.
 
@@ -66,7 +65,8 @@ If the paper is accepted by the JPE, the appendices containing instructions, the
 
 -------------
 ## Journal of Finance
-homepage: https://onlinelibrary.wiley.com/journal/15406261<br/>
+
+[homepage](https://onlinelibrary.wiley.com/journal/15406261)<br/>
 [Code Sharing Policy](https://afajof.org/wp-content/uploads/files/policies-and-guidelines/CodePolicy.pdf)
 [Submission Guidelines and Policies](https://afajof.org/wp-content/uploads/files/policies-and-guidelines/JF_Submission_Guidelines-Feb.pdf)
 -------------
@@ -83,10 +83,11 @@ l)If  your  paper  uses  proprietary  data  (that  is  not  available  for  purc
 
 -------------
 ## American Economic Review
-homepage: https://www.aeaweb.org/journals/aer<br/>
+
+[homepage](https://www.aeaweb.org/journals/aer)<br/>
 [Data and Code Availability Policy](https://www.aeaweb.org/journals/data/data-code-policy)
 -------------
-###Data and Code Availability Policy
+### Data and Code Availability Policy
 
 * Content and Scope
   * Data and Software Citations
@@ -162,7 +163,8 @@ This version (September 2020) supplants all prior data policies.
 
 -------------
 ## Econometrica
-homepage: https://onlinelibrary.wiley.com/journal/14680262<br/>
+
+[homepage](https://onlinelibrary.wiley.com/journal/14680262)<br/>
 [Replication policy](https://www.econometricsociety.org/publications/econometrica/information-authors/editorial-procedures-and-policies)
 -------------
 ### Replication Policy
@@ -176,7 +178,8 @@ Requests for an exemption from providing the materials described here, or for re
 
 -------------
 ## Review of Economic Studies
-homepage: https://academic.oup.com/restud<br/>
+
+[homepage](https://academic.oup.com/restud)<br/>
 [Data Availability Policy](https://restud.github.io/data-editor/before/#data-availability-policy)
 -------------
 By submitting to the journal, you indicate that you accept the Data Availability Policy. In short, the default rule is that you are required to submit all code and data necessary to reproduce your work, and permit any reader of the journal to use them.
@@ -219,10 +222,11 @@ The article will then be reviewed at the discretion of the Managing Editors and 
 
 -------------
 ## Journal of the European Economic Association
-homepage: https://academic.oup.com/jeea<br/>
+
+[homepage](https://academic.oup.com/jeea)<br/>
 [Supplementary Material & Data Policy](https://academic.oup.com/jeea/pages/Author_Guidelines)
 -------------
-## Supplementary Material & Data Policy
+### Supplementary Material & Data Policy
 1. Supplementary Material
 
 Supplementary material that is not essential for inclusion in the main text of the manuscript, but would nevertheless benefit the reader, can be placed in Online Appendices, and linked from the manuscript. The material should not be essential to comprehension of the article, but should be relevant to the article content. This includes all replication materials.

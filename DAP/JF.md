@@ -1,6 +1,7 @@
 -------------
 # Journal of Finance
-homepage: https://onlinelibrary.wiley.com/journal/15406261<br/>
+
+[homepage](https://onlinelibrary.wiley.com/journal/15406261)<br/>
 [Code Sharing Policy](https://afajof.org/wp-content/uploads/files/policies-and-guidelines/CodePolicy.pdf)
 [Submission Guidelines and Policies](https://afajof.org/wp-content/uploads/files/policies-and-guidelines/JF_Submission_Guidelines-Feb.pdf)
 -------------

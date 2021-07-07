@@ -1,9 +1,10 @@
 -------------
 # American Economic Review
-homepage: https://www.aeaweb.org/journals/aer<br/>
+
+[homepage](https://www.aeaweb.org/journals/aer)<br/>
 [Data and Code Availability Policy](https://www.aeaweb.org/journals/data/data-code-policy)
 -------------
-##Data and Code Availability Policy
+## Data and Code Availability Policy
 
 * Content and Scope
   * Data and Software Citations

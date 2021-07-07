@@ -1,6 +1,7 @@
 -------------
 # Journal of the European Economic Association
-homepage: https://academic.oup.com/jeea<br/>
+
+[homepage](https://academic.oup.com/jeea)<br/>
 [Supplementary Material & Data Policy](https://academic.oup.com/jeea/pages/Author_Guidelines)
 -------------
 ## Supplementary Material & Data Policy

@@ -1,6 +1,7 @@
 -------------
 # Review of Economic Studies
-homepage: https://academic.oup.com/restud<br/>
+
+[homepage](https://academic.oup.com/restud)<br/>
 [Data Availability Policy](https://restud.github.io/data-editor/before/#data-availability-policy)
 -------------
 By submitting to the journal, you indicate that you accept the Data Availability Policy. In short, the default rule is that you are required to submit all code and data necessary to reproduce your work, and permit any reader of the journal to use them.

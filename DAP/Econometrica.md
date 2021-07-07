@@ -1,6 +1,7 @@
 -------------
 # Econometrica
-homepage: https://onlinelibrary.wiley.com/journal/14680262<br/>
+
+[homepage](https://onlinelibrary.wiley.com/journal/14680262)<br/>
 [Replication policy](https://www.econometricsociety.org/publications/econometrica/information-authors/editorial-procedures-and-policies)
 -------------
 ## Replication Policy

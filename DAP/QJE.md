@@ -1,6 +1,7 @@
 -------------
 # Quarterly Journal of Economics
-homepage: https://academic.oup.com/qje<br/>
+
+[homepage](https://academic.oup.com/qje)<br/>
 [Data Policy](https://academic.oup.com/qje/pages/Data_Policy)
 -------------
 
