@@ -1,12 +1,17 @@
-# Clean up many repos
+# 0. Clean up many repos
 - delete unused repos
 - move and consolidate issues
 
-# Annotated READMEs
+# 1. Annotated READMEs
 ## Resources
-Repo: https://github.com/REStud/data-editor-svelte
+Repo: https://github.com/REStud/annotated-READMEs
 
-# Automate steps
+# 2. Common DAP
+- (Google Sheet)[https://docs.google.com/spreadsheets/d/11lua0_5iE-ioX0H-90oUM-ZdfYkZCMBHjAHIpC2ZYds/edit#gid=0]
+
+# 3. Compute statistics of replication packages
+
+# 4. Automate steps
 ## Resources
 - https://github.com/REStud/restud.py
 - https://github.com/REStud/workflow
@@ -14,17 +19,15 @@ Repo: https://github.com/REStud/data-editor-svelte
 ## Todo
 - move `authors/template_answers.yaml` and report template: https://github.com/REStud/restud.py/issues/6
 
-# Move to AirTable
+# 5. Move to AirTable
 - Airtable Demo base
 - Airtable ReplicationPackages base
 - Integromat Geri
 - Integromat Miklos
 
-# Compute statistics of replication packages
-
-# Create Docker images for replications
+# 6. Create Docker images for replications
 ## Resources
 - hub.docker.com/restud
 
-# Dedicated RESTUD email
+# DONE: Dedicated RESTUD email
 - Easier to parse, not lost.
