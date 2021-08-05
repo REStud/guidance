@@ -3,6 +3,7 @@
 
 [homepage](https://www.aeaweb.org/journals/aer)<br/>
 [Data and Code Availability Policy](https://www.aeaweb.org/journals/data/data-code-policy)
+[Policy on Experimental and Survey papers](https://www.aeaweb.org/journals/data/policy-experimental)
 -------------
 ## Data and Code Availability Policy
 
