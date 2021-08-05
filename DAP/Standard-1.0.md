@@ -1,33 +1,19 @@
--------------
-# American Economic Review
+# Social Science Reproducible Research Standard
+## Version: 1.0
+## Date: September 1, 2021
 
-[homepage](https://www.aeaweb.org/journals/aer)<br/>
-[Data and Code Availability Policy](https://www.aeaweb.org/journals/data/data-code-policy)<br/>
-[Policy on Experimental and Survey papers](https://www.aeaweb.org/journals/data/policy-experimental)
--------------
+Based on the September 2020 version [AEA Data and Code Availability Policy](https://www.aeaweb.org/journals/data/data-code-policy).
+
 ## Data and Code Availability Policy
 
-* Content and Scope
-  * Data and Software Citations
-  * Data Availability Statement
-  * Non-Public Data
-  * Formats
-  * Metadata
-  * Version of Record
-* Registration of Randomized Control Trials
-* Ethics Approval
-* Instructions
+### High-level overview
+It is the policy of *this journal* to publish papers only if the data and code used in the analysis are clearly and precisely documented and access to the data and code is non-exclusive to the authors.
 
+Authors of accepted papers that contain empirical work, simulations, or experimental work must provide, as a precondition to final publication, information about the data, programs, and other details of the computations sufficient to permit replication, as well as information about access to data and programs.
 
-It is the policy of the American Economic Association to publish papers only if the data and code used in the analysis are clearly and precisely documented and access to the data and code is non-exclusive to the authors.
-
-Authors of accepted papers that contain empirical work, simulations, or experimental work must provide, prior to acceptance, information about the data, programs, and other details of the computations sufficient to permit replication, as well as information about access to data and programs.
-
-Data and programs should be archived in the AEA Data and Code Repository.* Authors will provide access to editors and reviewers, if requested, to both data and programs prior to acceptance. The Editor should be notified at the time of submission if access to the data used in a paper is restricted or limited, or if, for some other reason, the requirements above cannot be met.
+Data and programs should be archived in *the designated code and data repository of this journal*. The Editor should be notified at the time of submission if access to the data used in a paper is restricted or limited, or if, for some other reason, the requirements above cannot be met.
 
 If data or programs cannot be published in an openly accessible trusted data repository, authors must commit to preserving data and code for a period of no less than five years following publication of the manuscript, and to providing reasonable assistance to requests for clarification and replication.
-
-The AEA Data Editor will assess compliance with this policy, and will verify the accuracy of the information prior to acceptance by the Editor.
 
 ### Content and Scope
 
@@ -55,26 +41,4 @@ As part of the archive, authors must provide a README file listing all included 
 The README shall follow the schema provided by the Social Science Data Editors' template README.
 
 Common formats are txt, PDF, and Markdown. The README file should not require proprietary software to view.
-### Version of Record
 
-After the data and code deposit is accepted by the AEA Data Editor, it will become the version of record associated with the paper. Corrections and revisions are subject to the Policy on Data and Code Revisions.
-
-### Registration of Randomized Control Trials
-
-It is the policy of the AEA that randomized control trials must be registered on the RCT Registry. All such registrations shall be cited in the title footnote and elsewhere in the paper as appropriate. Please see the RCT Registry policy.
-
-### Ethics Approval
-
-If applicable, approval by ethics boards—the Institutional Review Board (IRB) in the United States and equivalent institutions elsewhere—should be demonstrated by including the name of the ethics board and any approval or exemption record number in the title footnote and the author disclosure statement(s). See the Disclosure Policy.
-
-### Instructions
-
-Detailed instructions for preparing and depositing replication packages are provided in the AEA Data Editor's step-by-step guide.
-
-For more information, see Frequently Asked Questions.
-
- 
-
-*Other repositories and archives may be acceptable, as long as these are considered to be "trusted" archives or repositories, see guidance. The AEA Data Editor will assess suitability of any such repositories and archives.
-
-This version (September 2020) supplants all prior data policies.
