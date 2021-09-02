@@ -1,0 +1,28 @@
+share:
+  data:
+    primary:
+    secondary:
+    extract:
+  code:
+    analysis:
+    extract:
+  instrument:
+    survey:
+    experiment:
+  exhibit:
+    figure:
+    table:
+  repository:
+document:
+  cite:
+    data:
+    software:
+  dependency:
+    data:
+    software:
+    environment:
+  guide:
+    instruction:
+    data:
+    exhibit:
+  readme:
