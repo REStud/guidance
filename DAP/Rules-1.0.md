@@ -15,6 +15,8 @@
 	1. Survey instrument
 	2. Experiment instructions
 2. Cite others' data
+	1. In README
+	2. In manuscript
 4. Explain how to get each piece of code or data the package relies on
 	1. Data Availability Statements
 	2. Software Libraries and Version Numbers
