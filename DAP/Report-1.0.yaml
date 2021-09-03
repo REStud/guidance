@@ -1,0 +1,13 @@
+cite:
+  data: All source data used in the paper shall be cited, following citation guidelines.
+  software: Citation of software packages is also encouraged.
+dependency:
+  data: description sufficient to access all data at their original source location
+  software:
+  environment:
+guide:
+  instruction: description sufficient to allow all programs to be run
+  data:
+  exhibit:
+readme:
+  format: The README shall follow the schema provided by the Social Science Data Editors template README.
