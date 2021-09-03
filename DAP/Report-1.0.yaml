@@ -13,10 +13,8 @@ dependency:
     - Describe the hardware and operating system on which the code was last run.
     - Explain if your code requires special hardware or runs for particularly long.
 guide:
-  instruction: 
-    - Authors must provide description sufficient to allow all programs to be run.
-  data:
-    - List all the data sets used with their bibliographic citation, referring to their specific file names if included.
+  instruction: Provide description sufficient to allow all programs to be run.
+  data: List all the data sets used with their bibliographic citation, referring to their specific file names if included.
   exhibit:
     - Create a list of exhibits and state which one is produced by which script. 
     - If a script creates multiple exhibits, point to the exact line number.
