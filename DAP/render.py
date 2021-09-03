@@ -14,7 +14,7 @@ def apply(item):
         return {key: apply(item[key]) for key in item}
     return item
 
-for file_name in ['Report']:
+for file_name in ['Report', 'Share']:
     doc = DocxTemplate(f'{file_name}.docx')
     md = Template(open(f'{file_name}.md', 'rt').read())
     context = apply(load(open(f'{file_name}-{version}.yaml')))

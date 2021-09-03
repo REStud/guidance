@@ -15,10 +15,11 @@ code:
     - The programs may be provided in any format compatible with commonly used statistical package or software. 
     - Should unusual or costly software be required, notify the responsible Editor. 
     - A main script is strongly encouraged.
-instrument:
-    - For papers collecting original data through surveys or experiments, include survey instruments or experiment instructions, 
-    - computer code for experiment or survey collection mechanisms, 
-    - and original instructions and details on subject selection.
-exhibit:
-  - Save all the output of the analysis in some standard, non-proprietary format into the replication package. 
+support:
+  instrument:
+      - For papers collecting original data through surveys or experiments, include survey instruments or experiment instructions, 
+      - computer code for experiment or survey collection mechanisms, 
+      - and original instructions and details on subject selection.
+  exhibit:
+    - Save all the output of the analysis in some standard, non-proprietary format into the replication package. 
 repository: Archive data and programs in the code and data repository designated by the journal. 
