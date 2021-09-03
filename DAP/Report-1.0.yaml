@@ -20,5 +20,6 @@ guide:
     - If a script creates multiple exhibits, point to the exact line number.
 readme:
   format: 
+    - The README document should list the title and authors of the replication package, its preparation date, and clear reference to the journal article to which it belongs.
     - Follow the schema provided by the Social Science Data Editors template README.
     - Common formats are txt, PDF, and Markdown. The README file should not require proprietary software to view.

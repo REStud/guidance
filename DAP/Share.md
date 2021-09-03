@@ -15,5 +15,6 @@
 | **Supporting materials** |
 | Instruments | 8 | {{ support.instrument }} | |
 | Exhibits | 9 | {{ support.exhibit }} | |
+| README | 10 | {{ support.readme }} | |
 | **Repository** | 
-| Repository | 10 | {{ repository }} | |
+| Repository | 11 | {{ repository }} | |

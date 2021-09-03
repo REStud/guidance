@@ -3,8 +3,7 @@ data:
   secondary: 
     - Whenever usage terms permit, include raw secondary data.
     - If secondary data cannot be published as part of a replication package or in an openly accessible trusted data repository, the rest of the policy still applies.
-  extract: 
-    - You are encouraged to include the data extract used for analysis, especially if source data cannot be published,
+  extract: You are encouraged to include the data extract used for analysis, especially if source data cannot be published,
   format: 
     - The data files may be provided in any format compatible with any commonly used statistical package or software. You are encouraged to provide data files in open, non-proprietary formats. 
     - Ensure that a meaningful name or description (label) is available for every variable in the provided datasets. Codebooks or similar metadata should describe the allowed values and their meaning for each variable. It is acceptable to reference publicly available documentation for these items.
@@ -20,6 +19,6 @@ support:
       - For papers collecting original data through surveys or experiments, include survey instruments or experiment instructions, 
       - computer code for experiment or survey collection mechanisms, 
       - and original instructions and details on subject selection.
-  exhibit:
-    - Save all the output of the analysis in some standard, non-proprietary format into the replication package. 
+  exhibit: Save all the output of the analysis in some standard, non-proprietary format into the replication package. 
+  readme: As part of the archive, provide a single README file listing all included files and documenting the purpose, format, and provenance of each file provided, as well as instructing a user on how replication can be conducted. 
 repository: Archive data and programs in the code and data repository designated by the journal. 

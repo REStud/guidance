@@ -15,4 +15,4 @@
 | Data list | 7 | List all the data sets used with their bibliographic citation, referring to their specific file names if included. | |
 | Exhibit list | 8 | (a) Create a list of exhibits and state which one is produced by which script. (b) If a script creates multiple exhibits, point to the exact line number. | |
 | **The README document** |
-| Format | 9 | (a) Follow the schema provided by the Social Science Data Editors template README. (b) Common formats are txt, PDF, and Markdown. The README file should not require proprietary software to view. | |
+| Format | 9 | (a) The README document should list the title and authors of the replication package, its preparation date, and clear reference to the journal article to which it belongs. (b) Follow the schema provided by the Social Science Data Editors template README. (c) Common formats are txt, PDF, and Markdown. The README file should not require proprietary software to view. | |
