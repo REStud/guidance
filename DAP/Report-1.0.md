@@ -8,7 +8,7 @@
 | Software | 2 | Citation of software packages is also encouraged. | |
 | **Dependencies** |
 | Data | 3 |(a) For econometric, simulation, and experimental papers, include description sufficient to access all data at their original source location. (b) Provide a data availability statement covering both the source data and any derivative data. It may additionally be provided as part of online appendices. (c) The data availability statement shall provide detailed information on how, where, and under what conditions an independent researcher can access the original source data, as well as author-generated derivative data, and must be explicit and accurate about any restrictions, requirements, payments, and processing delays. (d) The data availability statement shall provide information to assure the reader that the data are available for a sufficiently long period of time. | |
-| Software | 4 | (a) List all software packages, libraries, toolboxes that you use with instructions on how to install them. | |
+| Software | 4 | List all software packages, libraries, toolboxes that you use with instructions on how to install them. | |
 | Environment | 5 | (a) Describe the hardware and operating system on which the code was last run. (b) Explain if your code requires special hardware or runs for particularly long. | |
 | **Guidance** |
 | Instructions | 6 | Provide description sufficient to allow all programs to be run. | |
