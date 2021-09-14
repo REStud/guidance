@@ -1,4 +1,4 @@
-# Reproducible Research Standard v{{ version }}
+# Reproducible Research Standard v{{ content.version }}
 ## What to include in the replication package and in the README document
 
 {% set count = namespace(value=0) %}

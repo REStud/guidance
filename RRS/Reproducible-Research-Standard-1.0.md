@@ -1,4 +1,4 @@
-# Reproducible Research Standard v
+# Reproducible Research Standard v1.0
 ## What to include in the replication package and in the README document
 
 
