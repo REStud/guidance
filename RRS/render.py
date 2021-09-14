@@ -14,16 +14,19 @@ def apply(item):
         return {key: apply(item[key]) for key in item}
     return item
 
-for file_name in ['Report', 'Share']:
-    doc = DocxTemplate(f'{file_name}.docx')
-    md = Template(open(f'{file_name}.md', 'rt').read())
-    context = apply(load(open(f'{file_name}-{version}.yaml')))
-    context['version'] = version
+file_name = 'Reproducible-Research-Standard'
+#doc = DocxTemplate(f'{file_name}.docx')
+md = Template(open(f'{file_name}.md', 'rt').read())
+codebook = load(open(f'codebook.yaml'))
+content = apply(load(open(f'content.yaml')))
+content['version'] = version
 
-    # save .md
-    with open(f'{file_name}-{version}.md', 'wt') as file:
-    	file.write(md.render(context))
+payload = dict(content=content, codebook=codebook)
 
-    # then .docx
-    doc.render(context)
-    doc.save(f'{file_name}-{version}.docx')
+# save .md
+with open(f'{file_name}-{version}.md', 'wt') as file:
+    file.write(md.render(payload))
+
+# then .docx
+#doc.render(context)
+#doc.save(f'{file_name}-{version}.docx')
