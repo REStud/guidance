@@ -1,5 +1,9 @@
 from csv import DictReader
+from collections import defaultdict
+import sys
 version = '1.0'
+
+journals = dict(restud='The Review of Economic Studies')
 
 def subitem_or_empty(subitem):
     if subitem:
@@ -15,7 +19,7 @@ def read_into_dictionary(fname, key):
             output[index] = row
     return output
 
-def render_rules(rules, items, topics):
+def render_rules(rules, items, topics, policy):
     items_covered = []
     topics_covered = []
     output = ''
@@ -30,12 +34,17 @@ def render_rules(rules, items, topics):
             items_covered.append(item)
         else:
             output += '| | |'
-        output += f' {subitem_or_empty(rule["subitem"])}{rule["rule"]}| |\n'
+        index = (item, rule["subitem"])
+        output += f' {subitem_or_empty(rule["subitem"])}{rule["rule"]} | {policy[index]["policy"]} |\n'
     return output
-    
+
 def main(journal=''):
     items = read_into_dictionary('item.csv', 'item')
     topics = read_into_dictionary('topic.csv', 'topic')
+    if journal:
+        policy = read_into_dictionary(f'{journal}.csv', 'item/subitem')
+    else:
+        policy = defaultdict(lambda: defaultdict(str))
     with open('rule.csv', 'rt') as f:
         rules = list(DictReader(f))
     print('''---
@@ -46,15 +55,19 @@ geometry:
 - right=20mm
 - bottom=20mm
 - heightrounded
----
-# Reproducible Research Standard v1.0
-## What to include in the replication package and in the README document
-
+---''')
+    if journal:
+        print(f'# Data and Code Availability Policy of {journals[journal]}\n')
+    print('''## Reproducible Research Standard v1.0
+### What to include in the replication package and in the README document
 | | Item No | Rule | Policy |
 |---|-|-------|-|''')
-    print(render_rules(rules, items, topics))
-    print('''
-All participating journals value all rules, but the levels of enforcement may vary. For each rule, journal policy may be **Verified**, **Required** or **Recommended**.
-''')
-
-main()
+    print(render_rules(rules, items, topics, policy))
+    if journal:
+        print('')
+    else:
+        print('All participating journals value all rules, but the levels of enforcement may vary. For each rule, journal policy may be **Verified**, **Required** or **Recommended**.')
+if len(sys.argv) > 1:
+    main(sys.argv[1])
+else:
+    main()
