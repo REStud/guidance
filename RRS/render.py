@@ -5,7 +5,7 @@ from yaml import load
 version = '1.0'
 
 def render_list(lst):
-    return ' '.join(['({}) {}'.format(chr(ord('a') + i), item) for i, item in enumerate(lst)])
+    return ' \n| | |'.join(['({}) {}'.format(chr(ord('a') + i), item) for i, item in enumerate(lst)])
 
 def apply(item):
     if isinstance(item, list):
