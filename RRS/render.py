@@ -1,32 +1,60 @@
-from jinja2 import Template
-from docxtpl import DocxTemplate
-from yaml import load
-
+from csv import DictReader
 version = '1.0'
 
-def render_list(lst):
-    return ' \n| | |'.join(['({}) {}'.format(chr(ord('a') + i), item) for i, item in enumerate(lst)])
+def subitem_or_empty(subitem):
+    if subitem:
+        return f'({subitem}) '
+    else:
+        return ''
 
-def apply(item):
-    if isinstance(item, list):
-        return render_list(item)
-    if isinstance(item, dict):
-        return {key: apply(item[key]) for key in item}
-    return item
+def read_into_dictionary(fname, key):
+    output = {}
+    with open(fname, 'rt') as f:
+        for row in DictReader(f):
+            output[row[key]] = row
+    return output
 
-file_name = 'Reproducible-Research-Standard'
-#doc = DocxTemplate(f'{file_name}.docx')
-md = Template(open(f'{file_name}.md', 'rt').read())
-codebook = load(open(f'codebook.yaml'))
-content = apply(load(open(f'content.yaml')))
-content['version'] = version
+def render_rules(rules, items, topics):
+    items_covered = []
+    topics_covered = []
+    output = ''
+    for rule in rules:
+        item = rule['item']
+        topic = items[item]['topic'] 
+        if item not in items_covered:
+            if topic not in topics_covered:
+                output += f'**{topics[topic]["title"]}** | | |\n'
+                topics_covered.append(topic)
+            output += f'{items[item]["title"]} | {item} |'
+            items_covered.append(item)
+        else:
+            output += '| | |'
+        output += f' {subitem_or_empty(rule["subitem"])}{rule["rule"]}| |\n'
+    return output
+    
+def main():
+    items = read_into_dictionary('item.csv', 'item')
+    topics = read_into_dictionary('topic.csv', 'topic')
+    with open('rule.csv', 'rt') as f:
+        rules = list(DictReader(f))
+    print('''
+---
+papersize: a4
+geometry:
+- top=20mm
+- left=20mm
+- right=20mm
+- bottom=20mm
+- heightrounded
+---
+# Reproducible Research Standard v1.0
+## What to include in the replication package and in the README document
 
-payload = dict(content=content, codebook=codebook)
+| | Item No | Rule | Policy |
+|---|-|-------|-|''')
+    print(render_rules(rules, items, topics))
+    print('''
+All participating journals value all rules, but the levels of enforcement may vary. For each rule, journal policy may be **Verified**, **Required** or **Recommended**.
+''')
 
-# save .md
-with open(f'{file_name}-{version}.md', 'wt') as file:
-    file.write(md.render(payload))
-
-# then .docx
-#doc.render(context)
-#doc.save(f'{file_name}-{version}.docx')
+main()
