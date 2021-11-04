@@ -11,7 +11,8 @@ def read_into_dictionary(fname, key):
     output = {}
     with open(fname, 'rt') as f:
         for row in DictReader(f):
-            output[row[key]] = row
+            index = tuple(row[k] for k in key.split('/'))
+            output[index] = row
     return output
 
 def render_rules(rules, items, topics):
@@ -20,25 +21,24 @@ def render_rules(rules, items, topics):
     output = ''
     for rule in rules:
         item = rule['item']
-        topic = items[item]['topic'] 
+        topic = items[tuple([item])]['topic'] 
         if item not in items_covered:
             if topic not in topics_covered:
-                output += f'**{topics[topic]["title"]}** | | |\n'
+                output += f'**{topics[tuple([topic])]["title"]}** | | |\n'
                 topics_covered.append(topic)
-            output += f'{items[item]["title"]} | {item} |'
+            output += f'{items[tuple([item])]["title"]} | {item} |'
             items_covered.append(item)
         else:
             output += '| | |'
         output += f' {subitem_or_empty(rule["subitem"])}{rule["rule"]}| |\n'
     return output
     
-def main():
+def main(journal=''):
     items = read_into_dictionary('item.csv', 'item')
     topics = read_into_dictionary('topic.csv', 'topic')
     with open('rule.csv', 'rt') as f:
         rules = list(DictReader(f))
-    print('''
----
+    print('''---
 papersize: a4
 geometry:
 - top=20mm

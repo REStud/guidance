@@ -1,4 +1,3 @@
-
 ---
 papersize: a4
 geometry:
