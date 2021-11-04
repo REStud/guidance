@@ -16,4 +16,4 @@ geometry:
 | **{{ codebook['root'][group] }}** |{% for topic in codebook[group] %}{% set count.value = count.value + 1 %}
 | {{ codebook[group][topic] }} | {{ count.value }} | {{ content[group][topic] }} | | {% endfor %}{% endfor %}
 
-All participating journals value all rules, but the levels of enforcement may vary. For each rule, journal policy may be "Verified", "Required" or "Recommended."
+All participating journals value all rules, but the levels of enforcement may vary. For each rule, journal policy may be **Verified**, **Required** or **Recommended**.

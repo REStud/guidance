@@ -51,4 +51,4 @@ geometry:
 | **Repository** |
 | Location | 14 | Archive data and programs in the code and data repository designated by the journal. | | 
 
-All participating journals value all rules, but the levels of enforcement may vary. For each rule, journal policy may be "Verified", "Required" or "Recommended."
+All participating journals value all rules, but the levels of enforcement may vary. For each rule, journal policy may be **Verified**, **Required** or **Recommended**.
