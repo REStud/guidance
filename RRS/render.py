@@ -28,14 +28,20 @@ def render_rules(rules, items, topics, policy):
         topic = items[tuple([item])]['topic'] 
         if item not in items_covered:
             if topic not in topics_covered:
-                output += f'**{topics[tuple([topic])]["title"]}** | | |\n'
+                output += f'**{topics[tuple([topic])]["title"]}** | |\n'
                 topics_covered.append(topic)
             output += f'{items[tuple([item])]["title"]} | {item} |'
             items_covered.append(item)
         else:
             output += '| | |'
         index = (item, rule["subitem"])
-        output += f' {subitem_or_empty(rule["subitem"])}{rule["rule"]} | {policy[index]["policy"]} |\n'
+        if policy[index]["policy"] == "recommended":
+            prefix = '*'
+            postfix = '* [recommended]'
+        else:
+            prefix = ''
+            postfix = ''
+        output += f' {subitem_or_empty(rule["subitem"])}{prefix}{rule["rule"]}{postfix} |\n'
     return output
 
 def main(journal=''):
@@ -60,13 +66,13 @@ geometry:
         print(f'# Data and Code Availability Policy of {journals[journal]}\n')
     print('''## Reproducible Research Standard v1.0
 ### What to include in the replication package and in the README document
-| | Item No | Rule | Policy |
-|---|-|-------|-|''')
+| | Item No | Rule | 
+|---|-|-------|''')
     print(render_rules(rules, items, topics, policy))
     if journal:
         print('')
     else:
-        print('All participating journals value all rules, but the levels of enforcement may vary. For each rule, journal policy may be **Verified**, **Required** or **Recommended**.')
+        print('All participating journals value all rules, but the levels of enforcement may vary. For each rule, journal policy may be **Required** or **Recommended**.')
 if len(sys.argv) > 1:
     main(sys.argv[1])
 else:
