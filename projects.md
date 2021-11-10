@@ -24,6 +24,8 @@ so that authors receive immediate feedback
 ## Resources
 - hub.docker.com/restud
 
+# 6. List of data sets with license and citation information
+
 # DONE: Dedicated RESTUD email
 - Easier to parse, not lost.
 
