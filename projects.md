@@ -19,6 +19,7 @@ Repo: https://github.com/REStud/annotated-READMEs
 
 # 4. Automate parsing of READMEs
 so that authors receive immediate feedback
+- [ ] check https://readme.so/ for inspiration and tech solutions
 
 # 5. Create Docker images for replications
 ## Resources
