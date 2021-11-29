@@ -25,20 +25,17 @@ def render_rules(rules):
     for key in rules:
         item, subitem = key
         short_key = f'{item}{subitem}'
-        rule = rules[key]["rule"]
-        if short_key not in output['rules']:
-            output['rules'][short_key] = rule
-            output['alternatives'][short_key] = []
-        else:
-            output['alternatives'][short_key].append(rule)
+        output['rules'][short_key] = rules[key]['rule']
+        output['alternatives'][short_key] = rules[key]['alternatives']
     return output
 
 def main(journal=''):
     items = read_into_dictionary('item.csv', 'item')
     topics = read_into_dictionary('topic.csv', 'topic')
-    rules = render_rules(read_into_dictionary('rule.csv', 'item/subitem'))['rules']
+    rules = render_rules(read_into_dictionary('rule.csv', 'item/subitem'))
     doc = DocxTemplate('Reproducible-template.docx')
-    doc.render(dict(rule=rules, 
+    doc.render(dict(rule=rules['rules'], 
+        alt=rules['alternatives'],
         item={key: items[key]['title'] for key in items}, 
         topic={key: topics[key]['title'] for key in topics}))
     doc.save(f'Reproducible-Research-Standard-{version}.docx')
