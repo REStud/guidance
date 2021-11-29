@@ -23,7 +23,7 @@ def read_into_dictionary(fname, key):
 def render_rules(rules):
     output = dict(rules={}, alternatives={})
     for key in rules:
-        item, subitem, alternative = key
+        item, subitem = key
         short_key = f'{item}{subitem}'
         rule = rules[key]["rule"]
         if short_key not in output['rules']:
@@ -36,7 +36,7 @@ def render_rules(rules):
 def main(journal=''):
     items = read_into_dictionary('item.csv', 'item')
     topics = read_into_dictionary('topic.csv', 'topic')
-    rules = render_rules(read_into_dictionary('rule.csv', 'item/subitem/alternative'))['rules']
+    rules = render_rules(read_into_dictionary('rule.csv', 'item/subitem'))['rules']
     doc = DocxTemplate('Reproducible-template.docx')
     doc.render(dict(rule=rules, 
         item={key: items[key]['title'] for key in items}, 
