@@ -13,26 +13,34 @@ def read_into_dictionary(fname, key):
     output = {}
     with open(fname, 'rt') as f:
         for row in DictReader(f):
-            index = tuple(row[k] for k in key.split('/'))
+            if '/' in key:
+                index = tuple(row[k] for k in key.split('/'))
+            else:
+                index = row[key]
             output[index] = row
     return output
 
 def render_rules(rules):
-    output = {}
+    output = dict(rules={}, alternatives={})
     for key in rules:
         item, subitem, alternative = key
+        short_key = f'{item}{subitem}'
         rule = rules[key]["rule"]
-        if int(item) not in output:
-            output[int(item)] = {}
-        if subitem not in output[int(item)]:
-            output[int(item)][subitem] = []
-        output[int(item)][subitem].append(rule)
-    return {i: Listing('\n'.join([subitem_or_empty(subitem) + ' OR '.join(output[i][subitem]) for subitem in output[i]])) for i in output}
+        if short_key not in output['rules']:
+            output['rules'][short_key] = rule
+            output['alternatives'][short_key] = []
+        else:
+            output['alternatives'][short_key].append(rule)
+    return output
 
 def main(journal=''):
-    rules = render_rules(read_into_dictionary('rule.csv', 'item/subitem/alternative'))
+    items = read_into_dictionary('item.csv', 'item')
+    topics = read_into_dictionary('topic.csv', 'topic')
+    rules = render_rules(read_into_dictionary('rule.csv', 'item/subitem/alternative'))['rules']
     doc = DocxTemplate('Reproducible-template.docx')
-    doc.render(dict(rule=rules))
+    doc.render(dict(rule=rules, 
+        item={key: items[key]['title'] for key in items}, 
+        topic={key: topics[key]['title'] for key in topics}))
     doc.save(f'Reproducible-Research-Standard-{version}.docx')
 
 main()
