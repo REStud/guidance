@@ -1,33 +1,50 @@
-rule,item,subitem
-"For papers collecting original data through surveys or experiments, include the original data unchanged, with the exception of anonymization and other privacy protection.",1,
-"Whenever usage terms permit, include raw secondary data.",2,a
-"If secondary data cannot be published as part of a replication package or in an openly accessible trusted data repository, the rest of the policy still applies.",2,b
-"Include the data extract used for analysis, especially if source data cannot be published and when the data transformation codes are computationally demanding.",3,
-"The data files may be provided in any format compatible with any commonly used statistical package or software. You are encouraged to provide data files in open, non-proprietary formats. ",4,a
-Ensure that a meaningful name or description (label) is available for every variable in the provided datasets. Codebooks or similar metadata should describe the allowed values and their meaning for each variable. It is acceptable to reference publicly available documentation for these items.,4,b
-Include programs used to create any final and analysis data sets from raw data.,5,
-Include programs used to run the final models.,6,
-The programs may be provided in any format compatible with commonly used statistical package or software. ,7,a
-"Should unusual or costly software be required, notify the responsible Editor. ",7,b
-Include a main script running all the code in proper order.,7,c
-"For papers collecting original data through surveys or experiments, include survey instruments or experiment instructions, ",8,a
-"computer code for experiment or survey collection mechanisms, ",8,b
-and original instructions and details on subject selection.,8,c
-"Save all the output of the analysis in some standard, non-proprietary format into the replication package. ",9,
-"Cite all source data used in the paper, following journal guidelines.",10,a
-"Cite all software packages used, following journal guidelines.",10,b
-"For econometric, simulation, and experimental papers, include description sufficient to access all data at their original source location.",11,a
-Provide a data availability statement covering both the source data and any derivative data. It may additionally be provided as part of online appendices. ,11,b
-"The data availability statement shall provide detailed information on how, where, and under what conditions an independent researcher can access the original source data, as well as author-generated derivative data, and must be explicit and accurate about any restrictions, requirements, payments, and processing delays. ",11,c
-The data availability statement shall provide information to assure the reader that the data are available for a sufficiently long period of time.,11,d
-"List all software packages, libraries, toolboxes that you use with instructions on how to install them.",11,e
-Describe the hardware and operating system on which the code was last run.,11,f
-Explain if your code requires special hardware or runs for particularly long.,11,g
-Provide description sufficient to allow all programs to be run.,12,a
-"List all the data sets used with their bibliographic citation, referring to their specific file names if included.",12,b
-Create a list of exhibits and state which one is produced by which script. ,12,c
-"If a script creates multiple exhibits, point to the exact line number.",12,d
-"The README document should list the title and authors of the replication package, its preparation date, and clear reference to the journal article to which it belongs.",13,a
-Follow the schema provided by the Social Science Data Editors template README (https://social-science-data-editors.github.io/template_README/),13,b
-"Common formats are txt, PDF, and Markdown. The README file should not require proprietary software to view.",13,c
-Archive data and programs in the code and data repository designated by the journal. ,14,
+rule,item,subitem,alternative
+Data are provided as part of the replication package.,1,,1
+Data are deposited at a trusted repository.,1,,2
+This includes unmodified original data collected through surveys or experiments.,2,,1
+This includes unmodified original data collected through surveys or experiments. Documented modifications to anonymize or protect privacy are permissible.,2,,2
+"Whenever usage terms permit, raw secondary data are included.",3,a,
+"If secondary data cannot be published as part of a replication package or in an openly accessible trusted data repository, the rest of the policy still applies.",3,b,
+Data extract used for analysis (analysis data) are provided as part of the replication package.,4,,1
+"Data extract used for analysis (analysis data) are provided as part of the replication package, especially if source data cannot be published or when the data transformation codes are computationally demanding.",4,,2
+The data files are provided in any format compatible with commonly used statistical package or software. ,5,a,
+"The data files are provided in open, non-proprietary formats. ",5,b,
+A meaningful name or description (label) is available for every variable in the provided datasets. ,5,c,
+Codebooks or similar metadata describe the allowed values and their meaning for each variable. ,5,d,
+It is acceptable to reference publicly available documentation for these items.,5,e,
+Include programs used to create any final and analysis data sets from raw data.,6,,
+Include programs used to run the final models.,7,,
+The programs are provided in formats compatible with commonly used statistical package or software. ,8,a,1
+The programs are provided in formats compatible with commonly used open-source software.,8,a,2
+"Should unusual or costly software be required, notify the responsible Editor. ",8,b,
+A main script running all the code in proper order is included.,8,c,
+"If collecting original data through surveys or experiments, include computer code for experiment or survey collection mechanisms.",8,d,
+"If collecting original data through surveys or experiments, include survey instruments or experiment instructions.",9,a,
+"If collecting original data through surveys or experiments, include original instructions and details on subject selection in the replication package.",9,b,1
+"If collecting original data through surveys or experiments, include original instructions and details on subject selection in the manuscript.",9,b,2
+"Save all the output of the analysis in a standard, non-proprietary format into the replication package. ",10,,
+"Cite all source data used in the paper, following journal guidelines.",11,a,
+"Cite all software packages used, following journal guidelines.",11,b,
+The replication package includes a README that contains instructions on executing code.,12,a,1
+"The replication package includes a README that contains data availability statements, instructions on obtaining data, and on executing code.",12,a,2
+The manuscript contains data and code availability statements in the body of the text. The replication package includes a README that contains instructions on executing code.,12,a,3
+"For econometric, simulation, and experimental papers, include description sufficient to access all data at their original source location.",12,b,1
+"If certain data are not provided as part of the replication package, include description sufficient to access all data at their original source location.",12,b,2
+Provide a data availability statement covering the source data.,12,c,1
+Provide a data availability statement covering both the source data and any derivative data. ,12,c,2
+"The data availability statement shall provide detailed information on how, where, and under what conditions an independent researcher can access the original source data, as well as author-generated derivative data, and must be explicit and accurate about any restrictions, requirements, payments, and processing delays. ",12,d,
+The data availability statement shall provide information to assure the reader that the data are available for a sufficiently long period of time.,12,e,
+"List all software packages, libraries, toolboxes that you use with instructions on how to install them.",12,f,
+Describe the hardware and operating system on which the code was last run.,12,g,
+Explain if your code requires special hardware or runs for a particularly long time.,12,h,
+Provide description sufficient to allow all programs to be run.,13,a,
+"List all the data sets used with their bibliographic citation, referring to their specific file names if included.",13,b,
+Create a list of exhibits and state which one is produced by which script. ,13,c,
+"If a script creates multiple exhibits, point to the exact line number.",13,d,
+"The README document should list the title and authors of the replication package, its preparation date, and clear reference to the journal article to which it belongs.",14,a,
+Follow the schema provided by the Social Science Data Editors template README (https://social-science-data-editors.github.io/template_README/),14,b,
+"Common formats are txt, PDF, and Markdown. The README file should not require proprietary software to view.",14,c,
+Data and programs are archived by the authors in the code and data repository designated by the journal. ,15,,1
+Data and programs are archived by the authors in the repositories deemed acceptable by the journal.,15,,2
+Data and programs are archived by the authors in any trusted repository.,15,,3
+Data and programs are sent to the editorial office.,15,,4
