@@ -29,7 +29,7 @@ If it was implemented, I copied the relating part of journal policy.
 
     14. Format: b) “General note:  The American Economic Association has produced a particularly detailed set of guidelines for research transparency in quantitative research.  While MISQ has not adopted that policy directly, we recommend it as a helpful reference for authors looking for detailed guidance:     https://social-science-data-editors.github.io/template_README/template-README.html “
 
-    14. Location: "authors will need to post a set of transparency materials (agreed to with their Senior Editor) on an external research repository " "If the paper is accepted, the transparency materials posted on the external repository will remain available as a permanent, accessible reference. "
+    15. Location: "authors will need to post a set of transparency materials (agreed to with their Senior Editor) on an external research repository " "If the paper is accepted, the transparency materials posted on the external repository will remain available as a permanent, accessible reference. "
 
 Not implemented (or at least not explicitly): 
 
