@@ -27,6 +27,10 @@ so that authors receive immediate feedback
 
 # 6. List of data sets with license and citation information
 
+# 7. List of articles with replication status
+
+# 8. Try socialsciencereplication.org as a replication platform
+
 # DONE: Dedicated RESTUD email
 - Easier to parse, not lost.
 
