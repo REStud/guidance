@@ -1,16 +1,17 @@
 title,item,topic
-General,1,data
-Primary data,2,data
-Secondary data,3,data
-Data extracts,4,data
-Format,5,data
-Data transformation,6,code
-Analysis,7,code
-Format,8,code
-Instruments,9,support
-Exhibits,10,support
-Citation,11,guidance
-Dependencies,12,guidance
-Guidance,13,guidance
-Format,14,guidance
-Location,15,repository
+Primary data,1,data
+Secondary data,2,data
+Data extracts,3,data
+Format,4,data
+Data transformation,5,code
+Analysis,6,code
+Format,7,code
+Instruments,8,support
+Exhibits,9,support
+Other,10,support
+Citation,11,documentation
+Dependencies,12,documentation
+Guidance,13,documentation
+Format,14,documentation
+Location,15,sharing
+License,16,sharing
