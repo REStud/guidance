@@ -4,7 +4,8 @@
 Source: http://stodden.net/papers/Legal-STODDEN2009.pdf
 <br/> Summary: RRS is a framework to rescend the default copyright in computational scientific resarch. RRS is an amalgamation of commonly used existing licenses: attaching CC BY to the compendium’s media components, modified BSD to code components, and the Science Commons Database Protocol (http://commons.org/projects/publishing/open-access-data-protocol) to the data if scientists choose to release their data to the public domain.
 
-<br/> Stodden's RRS is in line with REStud RRS, a recommended addition to REStud RRS could be: ask packages to use RRS license as default (instead of the default copyright). eg. in 14. Format (d): Place a notifiacation in the README that "the replication package falls under RRS." (btw I don't know whether there's any default license at RESTud right now)
+<br/> Stodden's RRS is in line with REStud RRS, a recommended addition to REStud RRS could be: ask packages to use RRS license as default (Instead of the recommendation now: “Creative Commons Attribution 4.0 International” license). eg. in 14. Format (d): Place a notifiacation in the README that "the replication package falls under RRS." (but I don't know the pros and cons of RRS vs. CC BY 4.0 licenses, it might not be a relevant change)
+
 ---------------------------------------------
 <br/> In the US, when scientists put their original research on the Web, it automatically falls under copyright. However, it is against open sharing, dissemination, using, reproducing and building on others’ research. This paper presents a methodology for scientists to **rescind copyright**. To rescind copyright on scientific research, you must actively choose to do so, and this is typically done with a **license**. Licenses offer an option to override default copyright law.
 
