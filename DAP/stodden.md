@@ -3,12 +3,12 @@
 ## Learning from reproducing computational results: introducing three principles and the Reproduction Package
 <br/> *Summary: Authors tried to reproduce 7 articles, based on that they identify three principles with 12 specific guidelines for their implementation in practice. Reproduction Package: a formalism that specifies a structured way to share computational research artifact.*
 <br/> *Stodden's Guidelines and the Reproduction Package is in line with REStud practice (eg. Zenodo, license, README, use main script).*
-*A recommended addition to REStud RRS could be:
+*A recommended addition to REStud RRS could be:*
 - Use Dockerfile G4. (I think it would be too much to ask, RRS 10b and 11e is enough)
 - **Include a Rule about pathing G6. (eg. RRS, Format 7d)**
 - **Include a Rule about set seed G7. (eg. RRS, Format 7e)**
 - For complex softwares: use Make and containerized environment G10. (I think it might not be often/necessary in Economics research)
-- **Provide scripts to reproduce visualizations of results. G11. (eg. RRS, edit Analysis 6 "Include programs used to run the final models, and to create exhibits")***
+- **Provide scripts to reproduce visualizations of results. G11. (eg. RRS, edit Analysis 6 "Include programs used to run the final models, and to create exhibits")**
 
 -------------------------------------
 
