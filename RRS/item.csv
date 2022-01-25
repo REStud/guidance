@@ -8,8 +8,10 @@ Analysis,6,code
 Format,7,code
 Instruments,8,support
 Exhibits,9,support
-Citation,10,guidance
-Dependencies,11,guidance
-Guidance,12,guidance
-Format,13,guidance
-Location,14,repository
+Other,10,support
+Citation,11,documentation
+Dependencies,12,documentation
+Guidance,13,documentation
+Format,14,documentation
+Location,15,sharing
+License,16,sharing
