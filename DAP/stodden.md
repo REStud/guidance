@@ -1,4 +1,32 @@
 # Compare Stodden's work with the RRS rules
+I emailed Victoria Stodden and asked about:
+1) How to use RRS
+2) Compatibility of RRS and AEA template
+## RRS vs. CC-BY 4.0
+CC itself recommends aginst using CC licence for software and source code. AEA published a license template 2 days ago (I don't know whether it is a new concept or just some update, but I see that the publishing date was February 02, 2022). I think it might be useful to converge towards this.. basically the same as Stodden"s RRS: modified BSD to code, and CC-BY 4.0 for text, figures, data (only exception, that Stodden recommends the following licenses to data: 1) CC0 or 2) Science Commons – Database Protocol or sometimes called 3) "Science Commons Open Data Protocol" wich also links to a CC website [here](https://creativecommons.org/about/program-areas/open-science) so I am a bit confused whether they are the same or different things... and also, basically raw data is not copyrightable.
+### Difference between RRS and CC-BY 4.0
+Creative Commons website [FAQ](https://creativecommons.org/faq/#Can_I_apply_a_Creative_Commons_license_to_software.3F)
+<br/>Can I apply a Creative Commons license to software?
+<br/>**We recommend against using Creative Commons licenses for software.**
+Unlike software-specific licenses, CC licenses do not contain specific terms about the distribution of source code, which is often important to ensuring the free reuse and modifiability of software. Many software licenses also address patent rights, which are important to software but may not be applicable to other copyrightable works. Additionally, our licenses are currently not compatible with the major software licenses, so it would be difficult to integrate CC-licensed work with other free software. Existing software licenses were designed specifically for use with software and offer a similar set of rights to the Creative Commons licenses.
+<br/>Version 4.0 of CC’s Attribution-ShareAlike (BY-SA) license is one-way compatible with the GNU General Public License version 3.0 (GPLv3). Also, the CC0 Public Domain Dedication is GPL-compatible and acceptable for software.
+### AEA license template - modified BSD and CC BY 4.0
+Source: licensing guidance(https://social-science-data-editors.github.io/guidance/Licensing_guidance.html) and AEA(https://aeadataeditor.github.io/aea-de-guidance/LICENSE-template.html)
+Dual-license Example
+The **AEA provides an example of a dual-license setup**, suitable for use by depositors to various journals’ data and code repositories (see the LICENSE-template). It combines
+- License: Modified BSD Modified BSD License, applies to all code, scripts, programs, and SOFTWARE
+- License: CC BY 4.0 Creative Commons Attribution 4.0 International Public License, applies to databases, images, tables, text, and any other objects
+
+### Stodden, V. (2009) Enabling reproducible research: Open licensing for scientific innovation. International Journal of Communications Law and Policy 13.
+Article [here](https://www.stodden.net/papers/ijclp-STODDEN-2009.pdf)
+Since the **raw facts themselves are not copyrightable**, it does not make sense to apply
+such a license to the data themselves. The selection and arrangement may be implemented in
+code or described in a text file accompanying the dataset, either of which can be appropriately
+licensed.
+<br/>Since an attribution license cannot be attached to raw facts, data can be released to the public domain by marking
+with the Science Commons Open Data Protocol88 or CC0 standard.(See Science Commons – Database Protocol, http://sciencecommons.org/resources/faq/database-protocol/ and CC0 Beta/Discussion Draft 3, http://creativecommons.org/weblog/entry/9071 [hereinafter CC0 Standard])
+
+---------------------------------------------
 
 ## Learning from reproducing computational results: introducing three principles and the Reproduction Package
 <br/> *Summary: Authors tried to reproduce 7 articles, based on that they identify three principles with 12 specific guidelines for their implementation in practice. Reproduction Package: a formalism that specifies a structured way to share computational research artifact.*
