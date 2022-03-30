@@ -13,6 +13,7 @@ Repo: https://github.com/REStud/annotated-READMEs
 ## Resources
 - https://github.com/REStud/restud.py
 - https://github.com/REStud/workflow
+- https://retool.com/
 
 ## Todo
 - move `authors/template_answers.yaml` and report template: https://github.com/REStud/restud.py/issues/6
