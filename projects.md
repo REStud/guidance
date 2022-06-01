@@ -18,6 +18,10 @@ Repo: https://github.com/REStud/annotated-READMEs
 ## Todo
 - move `authors/template_answers.yaml` and report template: https://github.com/REStud/restud.py/issues/6
 
+## Questions
+- custum built full stack solution for submission processing?
+  - jointly with others?
+
 # 4. Automate parsing of READMEs
 so that authors receive immediate feedback
 - [ ] check https://readme.so/ for inspiration and tech solutions
