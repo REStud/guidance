@@ -33,8 +33,17 @@ so that authors receive immediate feedback
 # 6. List of data sets with license and citation information
 
 # 7. List of articles with replication status
+## Todo 
+- [ ] send to Abel
 
 # 8. Try socialsciencereplication.org as a replication platform
+
+# 9. Ex-post analysis of READMEs
+## Todo
+- [ ] collect all README documents form `accepted` GitHub repos
+- [ ] save to a dedicated folder/GitHub repo
+- [ ] parse and analyze
+  - [ ] check different versions
 
 # DONE: Dedicated RESTUD email
 - Easier to parse, not lost.
