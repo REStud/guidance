@@ -4,6 +4,7 @@ Prepare a README document. Include
 - [ ] Data Availability and Provenance Statements for each external dataset you are using
 - [ ] data citations for each external dataset you are using
 - [ ] descriptions of software requirements, including optional packages
+- [ ] descriptions of hardware requirements, including runtimes
 - [ ] high-level overview of the replication process
 - [ ] The README follows the Social Science Data Editors' template
 - [ ] It is in plain text, markdown or PDF format, named README.txt, README.md or README.pdf.
