@@ -13,9 +13,14 @@ Repo: https://github.com/REStud/annotated-READMEs
 ## Resources
 - https://github.com/REStud/restud.py
 - https://github.com/REStud/workflow
+- https://retool.com/
 
 ## Todo
 - move `authors/template_answers.yaml` and report template: https://github.com/REStud/restud.py/issues/6
+
+## Questions
+- custum built full stack solution for submission processing?
+  - jointly with others?
 
 # 4. Automate parsing of READMEs
 so that authors receive immediate feedback
@@ -26,6 +31,19 @@ so that authors receive immediate feedback
 - hub.docker.com/restud
 
 # 6. List of data sets with license and citation information
+
+# 7. List of articles with replication status
+## Todo 
+- [ ] send to Abel
+
+# 8. Try socialsciencereplication.org as a replication platform
+
+# 9. Ex-post analysis of READMEs
+## Todo
+- [ ] collect all README documents form `accepted` GitHub repos
+- [ ] save to a dedicated folder/GitHub repo
+- [ ] parse and analyze
+  - [ ] check different versions
 
 # DONE: Dedicated RESTUD email
 - Easier to parse, not lost.
