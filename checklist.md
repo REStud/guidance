@@ -11,7 +11,7 @@
 - [ ] All other supporting material<sup>[2](#myfootnote2)</sup>
 - [ ] A license that specifies the terms of use of code and data in the replication package.
 
-##README requirements:
+## README requirements:
 - [ ] Authors and title of the replication package (may be different from MS).
 - [ ] Accurate bibliographic reference to the article which the package supplements.
 - [ ] A Data Availabilty Statement (DAS) on how, where and under what conditions can the data be accessed.
@@ -22,7 +22,7 @@
 - [ ] The README follows the schema provided by the Social Science Data Editors' template README.
 - [ ] The README is in .txt, .pdf or .md format and named README.txt, README.pdf or README.md and included in the root folder.
 
-##Manuscript requirements:
+## Manuscript requirements:
 - [ ] A Data Availabilty Statement referring to the DOI of the Zenodo record.
 - [ ] Accurate bibliographic citations of each dataset you are using.
 
