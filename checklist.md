@@ -27,6 +27,6 @@
 - [ ] Accurate bibliographic citations of each dataset you are using.
 
 
-<a name="myfootnote1">1</a>: Footnote content goes here: Tables can be in .csv, .xls, .tex, Stata logs are also accepted if the lines of the exhibits are noted; figures can be in .eps, .pdf, .png.
+<a name="myfootnote1">1</a>: Tables can be in .csv, .xls, .tex, Stata logs are also accepted if the lines of the exhibits are noted; figures can be in .eps, .pdf, .png.
 
-<a name="myfootnote2">2</a>: Footnote content goes here: If collecting through surveys or experiments, survey instruments or experiment instructions as well as details on subject selection have to be included. 
+<a name="myfootnote2">2</a>: If collecting through surveys or experiments, survey instruments or experiment instructions as well as details on subject selection have to be included. 
