@@ -1,6 +1,7 @@
 # REStud submissionform checklist
 
 Package contains:
+
     - [ ] Raw data if it is publicly accessible. 
     - [ ] Analysis data. 
     - [ ] Programs to create any final and analysis data.
@@ -11,6 +12,7 @@ Package contains:
     - [ ] All other supporting material[^2]
     - [ ] A license that specifies the terms of use of code and data in the replication package.
 README requirements:
+
     - [ ] Authors and title of the replication package (may be different from MS).
     - [ ] Accurate bibliographic reference to the article which the package supplements.
     - [ ] A Data Availabilty Statement (DAS) on how, where and under what conditions can the data be accessed.
@@ -21,6 +23,7 @@ README requirements:
     - [ ] The README follows the schema provided by the Social Science Data Editors' template README.
     - [ ] The README is in .txt, .pdf or .md format and named README.txt, README.pdf or README.md and included in the root folder.
 Manuscript requirements:
+
     - [ ] A Data Availabilty Statement referring to the DOI of the Zenodo record
     - [ ] Accurate bibliographic citations of each dataset you are using
 
